@@ -1,9 +1,11 @@
 import { ReadMoreButton, IntroductionTitle, IntroductionText, FirstPageContainer, FirstPagePhoto } from "./styles"
-import foto_prueba from "../../resources/images/foto_prueba.png"
+import foto_prueba from "../../resources/images/foto_inicio.jpg"
+import HamburgerMenu from "../NavBar"
 
 const FirstPage = () => {
     return(
         <div>
+        <HamburgerMenu/>
         <FirstPageContainer>
           <IntroductionTitle>INTRODUCTION</IntroductionTitle>
           <IntroductionText>

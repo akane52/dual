@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 export const FirstPageContainer = styled.div`
     display: flex;
     flex-direction: column;
-    margin-top: 20%;
+    margin-top: 17%;
     margin-left: 10%;
 `
 
