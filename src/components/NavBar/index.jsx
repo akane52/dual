@@ -1,7 +1,6 @@
 import  { ContainerNB, ContainerText, Text }  from './styles'
 
-const NavbarType = () => {
-
+const Navbar = () => {
     return (
       <ContainerNB>
         <ContainerText>
@@ -15,4 +14,4 @@ const NavbarType = () => {
     )
   }
   
-  export default NavbarType
+  export default Navbar
