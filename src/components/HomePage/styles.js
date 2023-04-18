@@ -15,19 +15,20 @@ export const ReadMoreButton = styled.button`
     padding-left: 1%;
     color: white;
     font-weight: bold;
-    background-color: #654AFF;
+    background-color: #94A8B3;
     border-radius: 0.8em;
     border: none;
     &:hover {
-        background-color: #8763FF;
+        background-color: #dcd3c9;
         cursor: pointer;
+        color: black;
     }
 `
 
 export const IntroductionTitle = styled.div`
     font-size: 2.5em;
     font-weight: bold;
-    color: #654AFF;
+    color: black;
     margin-bottom: 1%;
 `
 

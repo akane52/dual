@@ -5,7 +5,7 @@ export const MenuLink = styled(Link)`
   text-decoration: none;
 `
 export const ContainerNB = styled.div`
-   background-color: #654AFF;
+   background-color: #94A8B3;
 `
 export const ContainerText = styled.div`
    display: flex;
@@ -19,7 +19,7 @@ export const Text = styled.button`
    background: none;
    border: none;
    &:hover {
-      color: #8763FF;
+      color: black;
       cursor: pointer;
    }
 `

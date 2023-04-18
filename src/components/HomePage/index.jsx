@@ -3,9 +3,15 @@ import foto_prueba from "../../resources/images/foto_inicio.jpg"
 import NavBar from "../NavBar"
 import { Link } from "react-router-dom"
 
+const Wrapper = ({ children }) => (
+  <div style={{ backgroundColor: '#DEDCDE', height: '100vh' }}>
+    {children}
+  </div>
+)
+
 const HomePage = () => {
   return (
-    <div>
+    <Wrapper>
       <NavBar />
       <FirstPageContainer>
         <IntroductionTitle>INTRODUCTION</IntroductionTitle>
@@ -18,7 +24,7 @@ const HomePage = () => {
         </Link>
         <FirstPagePhoto src={foto_prueba} alt="Descripción de la imagen" />
       </FirstPageContainer>
-    </div>
+    </Wrapper>
   )
 }
 
