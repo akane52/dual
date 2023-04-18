@@ -3,7 +3,7 @@ import foto_prueba from "../../resources/images/foto_inicio.jpg"
 import NavBar from "../NavBar"
 import { Link } from "react-router-dom"
 
-const FirstPage = () => {
+const HomePage = () => {
   return (
     <div>
       <NavBar />
@@ -22,4 +22,4 @@ const FirstPage = () => {
   )
 }
 
-export default FirstPage
+export default HomePage

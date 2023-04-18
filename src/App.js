@@ -1,14 +1,16 @@
 import './App.css';
-import FirstPage from './components/FirstPage';
-import { Hola } from './components/ReadMoreButton';
+import HomePage from './components/HomePage';
+import { IntroductionPage } from './components/IntroductionPage';
+import { WhoAmIPage } from './components/WhoAmIPage';	
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
 
 function App() {
   return (
       <BrowserRouter>
       <Routes>
-        <Route path='/' element={<FirstPage />} />
-        <Route path='/components/ReadMoreButton' element={<Hola />} />
+        <Route path='/' element={<HomePage />} />
+        <Route path='/components/ReadMoreButton' element={<IntroductionPage />} />
+        <Route path='/components/WhoAmIPage' element={<WhoAmIPage />} />
       </Routes>
     </BrowserRouter>
   )
