@@ -4,22 +4,20 @@ import { Link } from 'react-router-dom'
 export const MenuLink = styled(Link)`
   text-decoration: none;
 `
-export const ContainerNB = styled.div`
-   background-color: #94A8B3;
-`
 export const ContainerText = styled.div`
    display: flex;
-   align-items: flex-start; 
+   justify-content: center; 
 `
 export const Text = styled.button`
-   font-size: 25px;
-   color: white;
-   padding: 0.9% 1% 0.9% 5%;
+   font-size: 15px;
+   font-family: monospace;
+   color: black;
+   padding: 0.9% 1% 0.5% 3%;
+   border: none;
    font-weight: bold;
    background: none;
-   border: none;
    &:hover {
-      color: black;
+      color: grey;
       cursor: pointer;
    }
 `

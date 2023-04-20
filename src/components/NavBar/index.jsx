@@ -1,4 +1,5 @@
-import  { ContainerNB, ContainerText, Text }  from './styles'
+import React from "react";
+import  { ContainerText, Text }  from './styles'
 import { useNavigate } from 'react-router-dom'
 
 const Navbar = () => {
@@ -9,8 +10,8 @@ const Navbar = () => {
   const handleOnClickWhoAmI = () => {
     navigate('/components/WhoAmIPage')
   }
-  const handleOnClickPersonalObjectives = () => {
-    navigate('/components/PersonalObjectivesPage')
+  const handleOnClickLearnings = () => {
+    navigate('/components/LearningsPage')
   }
   const handleOnClickTravelport = () => {
     navigate('/components/TravelportPage')
@@ -19,15 +20,15 @@ const Navbar = () => {
     navigate('/components/ConclusionsPage')
   }
     return (
-      <ContainerNB>
+      <div>
         <ContainerText>
-          <Text onClick={handleOnClickHome}>Home</Text>
-          <Text onClick={handleOnClickWhoAmI}>Who am I</Text>
-          <Text onClick={handleOnClickPersonalObjectives}>Personal objectives</Text>
-          <Text onClick={handleOnClickTravelport}>Travelport</Text>
-          <Text onClick={handleOnClickConclusions}>Conclusions</Text>
+          <Text onClick={handleOnClickHome}>HOME</Text>
+          <Text onClick={handleOnClickWhoAmI}>WHO AM I</Text>
+          <Text onClick={handleOnClickTravelport}>TRAVELPORT</Text>
+          <Text onClick={handleOnClickLearnings}>LEARNINGS</Text>
+          <Text onClick={handleOnClickConclusions}>CONCLUSIONS</Text>
         </ContainerText>
-      </ContainerNB>
+      </div>
     )
   }
   
