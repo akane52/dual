@@ -21,7 +21,7 @@ export const IntroductionText = styled.div`
 export const FirstPagePhoto = styled.img`
     width: 40%;
     height: 50%;
-    margin-top: -28.5%;
+    margin-top: -19%;
     margin-left: 60%;
 `
 export const HorizontalLine = styled.hr`
