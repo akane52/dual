@@ -23,10 +23,10 @@ export const SocialLink = styled.a`
     }
 `
 export const LinkedinLogo = styled.img`
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
 `
 export const GithubLogo = styled.img`
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
 `
