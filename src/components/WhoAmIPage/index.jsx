@@ -1,6 +1,7 @@
 import React from "react"
 import NavBar from "../NavBar"
 import foto_lucia from "../../resources/images/lucia_foto.jpg"
+import PersonalObjectivesCard from "../PersonalObjectivesCards"
 import Footer from "../Footer"
 import { 
   IntroductionTitle, 
@@ -33,6 +34,7 @@ export const WhoAmIPage = () => {
         <PersonalObjectivesSentence>I've not failed I've just found 10,000 ways that won't work</PersonalObjectivesSentence>
         <HorizontalLine />
       </PersonalObjectivesContainer>
+      <PersonalObjectivesCard />
       <Footer />
     </div>
   )
