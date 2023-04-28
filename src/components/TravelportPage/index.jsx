@@ -29,8 +29,6 @@ export const TravelportPage = () => {
             Si bien Travelport GDS se orientó inicialmente hacia las compañías aéreas, 
             hoy en día se utiliza para distribuir una variedad de productos y servicios 
             para aquellos en la industria de viajes, incluidas habitaciones de hotel y productos de hotel.
-            <br></br>
-            Para más información contacte con: 934 15 71 64
           </IntroductionText>
           <ImageContainer href="https://www.travelport.com">
             <FirstPagePhoto src={Travelport_photo} alt="Descripción de la imagen" />

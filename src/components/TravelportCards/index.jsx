@@ -1,5 +1,4 @@
 import React from "react";
-
 import { 
     CardBackground, 
     CardImage, 
@@ -14,30 +13,26 @@ const TravelportCards = () => {
     <CardContainer>
         <CardBackground>
             <CardImage ></CardImage>
+              {/* Linea para poner los iconos solo hace falta poner classname y el nombre
+            del icono que quieras */}
+            {/* <span className="fab fa-42-group"></span>  */}
             <CardTextContainer>
-            <CardTitle>Teléfono</CardTitle>
-            <CardDescription>holka diuwdhiuehdfouewd</CardDescription>
+            <CardTitle>Phone</CardTitle>
+            <CardDescription>934 15 71 64</CardDescription>
             </CardTextContainer>
         </CardBackground>
         <CardBackground>
             <CardImage ></CardImage>
             <CardTextContainer>
-            <CardTitle>Travelport</CardTitle>
-            <CardDescription>holka diuwdhiuehdfouewd</CardDescription>
+            <CardTitle>Dirección</CardTitle>
+            <CardDescription>Ronda Litoral, 12, 08005 Barcelona</CardDescription>
             </CardTextContainer>
         </CardBackground>
         <CardBackground>
             <CardImage></CardImage>
             <CardTextContainer>
-            <CardTitle>Learnings</CardTitle>
-            <CardDescription>holka diuwdhiuehdfouewd</CardDescription>
-            </CardTextContainer>
-        </CardBackground>
-        <CardBackground>
-            <CardImage></CardImage>
-            <CardTextContainer>
-            <CardTitle>Conclusions</CardTitle>
-            <CardDescription>holka diuwdhiuehdfouewd</CardDescription>
+            <CardTitle>Razón social</CardTitle>
+            <CardDescription>Travelport Worldwide Limited</CardDescription>
             </CardTextContainer>
         </CardBackground>
     </CardContainer>
