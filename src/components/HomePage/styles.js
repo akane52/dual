@@ -21,11 +21,14 @@ export const IntroductionText = styled.div`
 export const FirstPagePhoto = styled.img`
     width: 40%;
     height: 50%;
-    margin-top: -19%;
-    margin-left: 60%;
 `
 export const HorizontalLine = styled.hr`
     width: 100%;
     border: 1px solid black;
     margin-bottom: 2%;
+`
+export const TextAndImageContainer = styled.div`
+    display: flex;
+    justify-content: space-around;
+    align-items: center
 `

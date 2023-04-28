@@ -5,7 +5,6 @@ export const FooterDiv = styled.div`
     background-color: #94A8B3;
     color: #fff;
     bottom: 0;
-    width: 98.9%;
     font-size: medium;
     display: flex;
     justify-content: space-between;

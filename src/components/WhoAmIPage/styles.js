@@ -17,15 +17,11 @@ export const IntroductionText = styled.div`
     font-size: 1.3em;
     width: 55%;
     text-align: justify;
-    margin-left: 45%;
 `
 export const LuciaPhoto = styled.img`
     width: 20%;
     height: 40%;
-    margin-top: -15%;
-    margin-left: 10%;
 `
-
 export const HorizontalLine = styled.hr`
     width: 100%;
     border: 1px solid black;
@@ -50,4 +46,9 @@ export const PersonalObjectivesSentence = styled.div`
     font-weight: bold;
     color: black;
     margin-bottom: 1%;
+`
+export const TextAndImageContainer = styled.div`
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 `
