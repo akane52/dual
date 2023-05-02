@@ -51,3 +51,11 @@ export const LearningsTitle = styled.div`
     color: black;
     margin-bottom: 1%;
 `
+export const DepartmentPhoto = styled.img`
+    width: 40%;
+    height: 50%;
+`
+export const PhotoContainer = styled.div`
+    display: flex;
+    justify-content: space-around;
+`
