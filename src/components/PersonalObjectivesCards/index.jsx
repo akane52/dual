@@ -1,5 +1,4 @@
 import React from "react";
-
 import { 
     CardBackground, 
     CardTextContainer,
@@ -21,7 +20,7 @@ const PersonalObjectivesCard = () => {
                 <Logos src={codingPhoto} />            
             </CirclePersonalObjectivesCard>
             <CardTextContainer>
-            <CardTitle>New technologies</CardTitle>
+            <CardTitle>Nuevas tecnologías</CardTitle>
             <CardDescription>
                 Aprender una nueva tecnología o lenguaje de programación 
                 relacionado con el desarrollo web para mejorar la capacidad 
@@ -34,7 +33,7 @@ const PersonalObjectivesCard = () => {
                 <Logos src={grouth} />            
             </CirclePersonalObjectivesCard>
             <CardTextContainer>
-            <CardTitle>Personal Grouth</CardTitle>
+            <CardTitle>Crecimiento personal</CardTitle>
             <CardDescription>Uno de mis principales objetivos personales ha sido siempre crecer tanto a 
                 nivel profesional como personal. Y considero que estas prácticas me han dado la oportunidad
                 de hacerlo.
@@ -46,7 +45,7 @@ const PersonalObjectivesCard = () => {
                 <Logos src={contactsLogo} />            
             </CirclePersonalObjectivesCard>
             <CardTextContainer>
-            <CardTitle>Contact network</CardTitle>
+            <CardTitle>Red de contactos</CardTitle>
             <CardDescription>
                 Establecer contactos profesionales y mantener relaciones de 
                 trabajo sólidas con compañeros de trabajo para construir una red de contactos

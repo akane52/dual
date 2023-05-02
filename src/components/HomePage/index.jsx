@@ -10,7 +10,7 @@ const HomePage = () => {
     <div>
       <NavBar />
       <FirstPageContainer>
-        <IntroductionTitle>INTRODUCTION</IntroductionTitle>
+        <IntroductionTitle>INTRODUCCIÓN</IntroductionTitle>
         <HorizontalLine />
         <TextAndImageContainer>
           <IntroductionText>

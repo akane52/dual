@@ -17,21 +17,21 @@ const TravelportCards = () => {
             del icono que quieras */}
             {/* <span className="fab fa-42-group"></span>  */}
             <CardTextContainer>
-            <CardTitle>Phone</CardTitle>
+            <CardTitle>TELÉFONO</CardTitle>
             <CardDescription>934 15 71 64</CardDescription>
             </CardTextContainer>
         </CardBackground>
         <CardBackground>
             <CardImage ></CardImage>
             <CardTextContainer>
-            <CardTitle>Dirección</CardTitle>
+            <CardTitle>DIRECCIÓN</CardTitle>
             <CardDescription>Ronda Litoral, 12, 08005 Barcelona</CardDescription>
             </CardTextContainer>
         </CardBackground>
         <CardBackground>
             <CardImage></CardImage>
             <CardTextContainer>
-            <CardTitle>Razón social</CardTitle>
+            <CardTitle>RAZÓN SOCIAL</CardTitle>
             <CardDescription>Travelport Worldwide Limited</CardDescription>
             </CardTextContainer>
         </CardBackground>

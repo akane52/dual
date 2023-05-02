@@ -20,7 +20,7 @@ const FirstPageCards = () => {
         navigate('/components/WhoAmIPage')
     }
     const handleOnClickLearnings = () => {
-        navigate('/components/LearningsPage')
+        navigate('/components/LearningsDepartmentPage')
     }
     const handleOnClickTravelport = () => {
         navigate('/components/TravelportPage')
@@ -33,7 +33,7 @@ const FirstPageCards = () => {
         <CardBackground>
             <CardImage ></CardImage>
             <CardTextContainer>
-            <CardTitle>Who am I?</CardTitle>
+            <CardTitle>¿Quién soy?</CardTitle>
             <CardDescription>holka diuwdhiuehdfouewd</CardDescription>
             <CardButton onClick={handleOnClickWhoAmI}>Read more</CardButton>
             </CardTextContainer>
@@ -49,7 +49,7 @@ const FirstPageCards = () => {
         <CardBackground>
             <CardImage src={learningsPhoto}></CardImage>
             <CardTextContainer>
-            <CardTitle>Learnings</CardTitle>
+            <CardTitle>Aprendizajes</CardTitle>
             <CardDescription>holka diuwdhiuehdfouewd</CardDescription>
             <CardButton onClick={handleOnClickLearnings}>Read more</CardButton>
             </CardTextContainer>
@@ -57,7 +57,7 @@ const FirstPageCards = () => {
         <CardBackground>
             <CardImage src={conclusionsPhoto}></CardImage>
             <CardTextContainer>
-            <CardTitle>Conclusions</CardTitle>
+            <CardTitle>Conclusiones</CardTitle>
             <CardDescription>holka diuwdhiuehdfouewd</CardDescription>
             <CardButton onClick={handleOnClickConclusions}>Read more</CardButton>
             </CardTextContainer>

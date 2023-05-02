@@ -20,7 +20,7 @@ export const WhoAmIPage = () => {
     <div>
       <NavBar />
       <FirstPageContainer>
-          <IntroductionTitle>WHO AM I</IntroductionTitle>
+          <IntroductionTitle>¿QUIÉN SOY?</IntroductionTitle>
           <HorizontalLine />
           <TextAndImageContainer>
             <LuciaPhoto src={foto_lucia} alt="Lucia foto" />
@@ -33,7 +33,7 @@ export const WhoAmIPage = () => {
         </TextAndImageContainer>
       </FirstPageContainer>
       <PersonalObjectivesContainer>
-        <PersonalObjectivesTitle>PERSONAL OBJECTIVES</PersonalObjectivesTitle>
+        <PersonalObjectivesTitle>OBJETIVOS PERSONALES</PersonalObjectivesTitle>
         <PersonalObjectivesSentence>I've not failed I've just found 10,000 ways that won't work</PersonalObjectivesSentence>
         <HorizontalLine />
       </PersonalObjectivesContainer>

@@ -11,7 +11,7 @@ const Navbar = () => {
     navigate('/components/WhoAmIPage')
   }
   const handleOnClickLearnings = () => {
-    navigate('/components/LearningsPage')
+    navigate('/components/LearningsDepartmentPage')
   }
   const handleOnClickTravelport = () => {
     navigate('/components/TravelportPage')
@@ -23,10 +23,10 @@ const Navbar = () => {
       <div>
         <ContainerText>
           <Text onClick={handleOnClickHome}>HOME</Text>
-          <Text onClick={handleOnClickWhoAmI}>WHO AM I</Text>
+          <Text onClick={handleOnClickWhoAmI}>QUIÉN SOY</Text>
           <Text onClick={handleOnClickTravelport}>TRAVELPORT</Text>
-          <Text onClick={handleOnClickLearnings}>LEARNINGS</Text>
-          <Text onClick={handleOnClickConclusions}>CONCLUSIONS</Text>
+          <Text onClick={handleOnClickLearnings}>APRENDIZAJES</Text>
+          <Text onClick={handleOnClickConclusions}>CONCLUSIONES</Text>
         </ContainerText>
       </div>
     )
