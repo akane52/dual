@@ -20,4 +20,9 @@ export const Text = styled.button`
       color: grey;
       cursor: pointer;
    }
+   &.selected {
+      font-weight: bold;
+      color: #94A8B3;
+      text-decoration: underline;
+   }
 `
