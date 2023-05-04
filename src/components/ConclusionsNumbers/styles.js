@@ -2,8 +2,8 @@ import styled from '@emotion/styled'
 
 export const GreyContainer = styled.div`
     background-color: #F0EDFF;
-    padding: 10px;
-    margin-bottom: 20px;
+    padding: 0.2px;
+    margin-bottom: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,6 +11,9 @@ export const GreyContainer = styled.div`
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
+    &.blackContainer{
+        background-color: black;
+    }
 `
 export const IntroductionTitle = styled.div`
     font-size: 2.5em;
@@ -33,5 +36,8 @@ export const FirstPageContainer = styled.div`
 export const Numbers = styled.div`
     color: black;
     font-weight: bold;
-    font-size: 5em;
+    font-size: 6rem;
+    &.whiteNumber {
+        color: white;
+    }
 `

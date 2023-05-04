@@ -15,9 +15,13 @@ export const ConclusionsNumbers = () => {
         <HorizontalLine />
       </FirstPageContainer>
       <GreyContainer>
-        <Numbers>
-          1
-        </Numbers>
+        <Numbers> 1 </Numbers>
+      </GreyContainer>
+      <GreyContainer>
+        <Numbers> 2 </Numbers>
+      </GreyContainer>
+      <GreyContainer className='blackContainer'>
+        <Numbers className='whiteNumber'> 3 </Numbers>
       </GreyContainer>
     </div>
   )
