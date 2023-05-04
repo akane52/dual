@@ -3,7 +3,6 @@ import NavBar from "../NavBar"
 import Footer from "../Footer";
 import TimeLine from "../TimeLine"
 import foto_dual from "../../resources/images/travelport_dual.jpg"
-
 import { IntroductionTitle,
   IntroductionText,
   FirstPageContainer,
@@ -12,7 +11,9 @@ import { IntroductionTitle,
   LearningsContainer,
   LearningsTitle, 
   DepartmentPhoto,
-  PhotoContainer
+  PhotoContainer,
+  DualDurationTitle,
+  DualDurationText
 } from "./styles"
 
 export const LearningsDepartmentPage = () => {
@@ -44,6 +45,16 @@ export const LearningsDepartmentPage = () => {
             </p>
           </IntroductionText>
         </TextAndImageContainer>
+        <DualDurationTitle>
+          DURACIÓN DEL PERIODO DE FCT Y DEL PERIODO DE DUAL
+        </DualDurationTitle>
+        {/* -----------------------------------CAMBIAR DISEÑO----------------------------------- */}
+        {/* <DualDurationText>
+            FCT→ 03-06 hasta el 30-06
+        </DualDurationText>
+        <DualDurationText>
+            DUAL→ 01-07 hasta el 31-05-23
+        </DualDurationText> */}
       </FirstPageContainer>
       <PhotoContainer>
         <DepartmentPhoto src={foto_dual} alt="Foto de la oficina" />

@@ -59,3 +59,14 @@ export const PhotoContainer = styled.div`
     display: flex;
     justify-content: space-around;
 `
+export const DualDurationTitle = styled.div`
+    font-size: 1.3em;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 1%;
+`
+export const DualDurationText = styled.p`
+    font-size: 1.2em;
+    width: 100%;
+    text-align: justify;
+`
