@@ -32,11 +32,6 @@ export const TextAndImageContainer = styled.div`
     justify-content: space-around;
     align-items: center
 `
-export const ImageContainer = styled.a`
-    display: flex;
-    justify-content: space-around;
-    align-items: center
-`
 export const LearningsContainer = styled.div`
     display: flex;
     flex-direction: column;
@@ -50,14 +45,6 @@ export const LearningsTitle = styled.div`
     font-weight: bold;
     color: black;
     margin-bottom: 1%;
-`
-export const DepartmentPhoto = styled.img`
-    width: 40%;
-    height: 50%;
-`
-export const PhotoContainer = styled.div`
-    display: flex;
-    justify-content: space-around;
 `
 export const DualDurationTitle = styled.div`
     font-size: 1.3em;

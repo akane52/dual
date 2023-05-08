@@ -9,7 +9,7 @@ export const ContainerText = styled.div`
    justify-content: center; 
 `
 export const Text = styled.button`
-   font-size: 15px;
+   font-size: 1.3rem;
    font-family: monospace;
    color: black;
    padding: 0.9% 1% 0.5% 3%;
