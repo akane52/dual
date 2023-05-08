@@ -13,9 +13,6 @@ const TravelportCards = () => {
     <CardContainer>
         <CardBackground>
             <CardImage ></CardImage>
-              {/* Linea para poner los iconos solo hace falta poner classname y el nombre
-            del icono que quieras */}
-            {/* <span className="fab fa-42-group"></span>  */}
             <CardTextContainer>
             <CardTitle>TELÉFONO</CardTitle>
             <CardDescription>934 15 71 64</CardDescription>

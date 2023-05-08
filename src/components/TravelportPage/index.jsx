@@ -1,4 +1,5 @@
 import React from "react";
+
 import { IntroductionTitle,
   IntroductionText,
   FirstPageContainer,
@@ -7,6 +8,7 @@ import { IntroductionTitle,
   TextAndImageContainer,
   ImageContainer 
 } from "./styles"
+
 import Travelport_photo from "../../resources/images/travelport_logo.jpg"
 import NavBar from "../NavBar"
 import TravelportCards from "../TravelportCards"
