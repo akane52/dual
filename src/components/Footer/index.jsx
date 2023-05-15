@@ -6,7 +6,7 @@ import { FooterDiv, SocialLinksDiv, SocialLink, LinkedinLogo, GithubLogo } from 
 const Footer = () => {
     return (
         <FooterDiv >
-          <p>Copyright &copy; 2022 Lucia Todos los derechos reservados</p>
+          <p>Lucía Lozano Montes</p>
           <SocialLinksDiv>
             <SocialLink href='https://github.com/akane52'>
               <GithubLogo src={github} alt="Github logo"></GithubLogo>

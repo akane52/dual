@@ -43,4 +43,5 @@ export const ConclusionsText = styled.div`
     margin-left: 20px;
     font-size: 1.5rem;
     color: white;
+    margin-right: 2%;
 `

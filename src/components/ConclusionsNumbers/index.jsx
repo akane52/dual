@@ -17,19 +17,25 @@ export const ConclusionsNumbers = () => {
       </FirstPageContainer>
       <GreyContainer>
         <Numbers> 1 </Numbers>
-        <ConclusionsText>hola</ConclusionsText>
+        <ConclusionsText>
+          He tenido la oportunidad de adquirir conocimientos en diferentes tecnologías,
+          lenguajes de programación y herramientas utilizadas en el desarrollo de aplicaciones multiplataforma. 
+        </ConclusionsText>
       </GreyContainer>
       <GreyContainer>
         <Numbers> 2 </Numbers>
-        <ConclusionsText>hola</ConclusionsText>
+        <ConclusionsText>
+          Las prácticas me dieron la oportunidad de entrar en un entorno 
+          laboral real. Pude experimentar la cultura empresarial, colaborar con equipos multidisciplinarios 
+          y comprender las dinámicas de trabajo más utilizadas hoy en día.
+        </ConclusionsText>
       </GreyContainer>
       <GreyContainer>
         <Numbers> 3 </Numbers>
-        <ConclusionsText>hola</ConclusionsText>
-      </GreyContainer>
-      <GreyContainer>
-        <Numbers> 4 </Numbers>
-        <ConclusionsText>hola</ConclusionsText>
+        <ConclusionsText>
+          Durante mis prácticas duales, recibí comentarios constantes de profesionales experimentados.
+          Estos comentarios me ayudaron a identificar mis puntos fuertes y áreas en las que podía mejorar.
+        </ConclusionsText>
       </GreyContainer>
     </div>
   )
