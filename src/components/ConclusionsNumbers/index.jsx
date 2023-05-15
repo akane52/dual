@@ -4,7 +4,8 @@ import {
   IntroductionTitle, 
   HorizontalLine, 
   GreyContainer, 
-  Numbers 
+  Numbers,
+  ConclusionsText
 } from "./styles"
 
 export const ConclusionsNumbers = () => {
@@ -16,12 +17,19 @@ export const ConclusionsNumbers = () => {
       </FirstPageContainer>
       <GreyContainer>
         <Numbers> 1 </Numbers>
+        <ConclusionsText>hola</ConclusionsText>
       </GreyContainer>
       <GreyContainer>
         <Numbers> 2 </Numbers>
+        <ConclusionsText>hola</ConclusionsText>
       </GreyContainer>
-      <GreyContainer className='blackContainer'>
-        <Numbers className='whiteNumber'> 3 </Numbers>
+      <GreyContainer>
+        <Numbers> 3 </Numbers>
+        <ConclusionsText>hola</ConclusionsText>
+      </GreyContainer>
+      <GreyContainer>
+        <Numbers> 4 </Numbers>
+        <ConclusionsText>hola</ConclusionsText>
       </GreyContainer>
     </div>
   )
