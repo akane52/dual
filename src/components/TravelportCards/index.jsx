@@ -7,7 +7,9 @@ import {
     CardDescription,
     CardContainer
 } from "./styles"
+
 import ubicacion_empresa from "../../resources/images/ubicacion_empresa.png"
+import departamento from "../../resources/images/departamento.png"
 
 const TravelportCards = () => {
   return (
@@ -34,7 +36,7 @@ const TravelportCards = () => {
             </CardTextContainer>
         </CardBackground>
         <CardBackground>
-            <CardImage></CardImage>
+            <CardImage src={departamento}></CardImage>
             <CardTextContainer>
             <CardTitle>DEPARTAMENTO</CardTitle>
             <CardDescription>Product & Tech <br /> Global Solutions Delivery</CardDescription>

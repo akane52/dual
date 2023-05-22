@@ -2,6 +2,8 @@ import React from "react";
 import learningsPhoto from "../../resources/images/learnings_photo.jpg"
 import travelportPhoto from "../../resources/images/travelport_logo.jpg"
 import conclusionsPhoto from "../../resources/images/conclusions_photo.jpg"
+import quien_soy from "../../resources/images/quien_soy.jpg"
+
 import { useNavigate } from 'react-router-dom'
 
 import { 
@@ -31,7 +33,7 @@ const FirstPageCards = () => {
   return (
     <CardContainer>
         <CardBackground>
-            <CardImage ></CardImage>
+            <CardImage src={quien_soy}></CardImage>
             <CardTextContainer>
             <CardTitle>¿Quién soy?</CardTitle>
             <CardDescription>holka diuwdhiuehdfouewd</CardDescription>
