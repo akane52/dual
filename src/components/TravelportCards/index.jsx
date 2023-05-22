@@ -7,6 +7,7 @@ import {
     CardDescription,
     CardContainer
 } from "./styles"
+import ubicacion_empresa from "../../resources/images/ubicacion_empresa.png"
 
 const TravelportCards = () => {
   return (
@@ -19,7 +20,7 @@ const TravelportCards = () => {
             </CardTextContainer>
         </CardBackground>
         <CardBackground>
-            <CardImage ></CardImage>
+            <CardImage src={ubicacion_empresa}></CardImage>
             <CardTextContainer>
             <CardTitle>DIRECCIÓN</CardTitle>
             <CardDescription>Ronda Litoral, 12, 08005 Barcelona</CardDescription>
@@ -29,7 +30,14 @@ const TravelportCards = () => {
             <CardImage></CardImage>
             <CardTextContainer>
             <CardTitle>RAZÓN SOCIAL</CardTitle>
-            <CardDescription>Travelport Worldwide Limited</CardDescription>
+            <CardDescription>GALILEO ESPAÑA SL B79276481</CardDescription>
+            </CardTextContainer>
+        </CardBackground>
+        <CardBackground>
+            <CardImage></CardImage>
+            <CardTextContainer>
+            <CardTitle>DEPARTAMENTO</CardTitle>
+            <CardDescription>Product & Tech <br /> Global Solutions Delivery</CardDescription>
             </CardTextContainer>
         </CardBackground>
     </CardContainer>

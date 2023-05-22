@@ -26,7 +26,7 @@ export const LearningsDepartmentPage = () => {
         <TextAndImageContainer>
           <IntroductionText>
             <p>
-              Durante estos últimos meses he tenido la oportunidad de trabajar en el departamento de CUST UI DEL & AUTO ENG - ES,
+              Durante este último año he tenido la oportunidad de trabajar en el departamento de Product & Tech - Global Solutions Delivery - Customer UI,
               ubicado en unas oficinas en Barcelona, justo al lado del puerto olímpico. 
               Mi experiencia ha sido enriquecedora y he tenido la suerte de contar con la supervisión de Toni Recio como mi tutor de prácticas
               durante este tiempo.

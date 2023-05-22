@@ -37,3 +37,39 @@ export const ImageContainer = styled.a`
     justify-content: space-around;
     align-items: center
 `
+export const CardsContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 4%;
+    width: 100%;
+    align-items: center;
+`
+export const BlueCard = styled.div`
+    background-color: #94A8B3;
+    border-radius: 10px;
+`
+export const GreenCard = styled.div`
+    background-color: #94A8B3;
+    border-radius: 10px;
+`
+export const Card = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+`
+export const CardText = styled.div`
+    font-size: 0.8em;
+    font-weight: normal;
+`
+export const AreasFuncionesImage = styled.img`
+
+`
