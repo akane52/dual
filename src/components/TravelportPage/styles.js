@@ -71,5 +71,5 @@ export const CardText = styled.div`
     font-weight: normal;
 `
 export const AreasFuncionesImage = styled.img`
-
+    padding-bottom: 2%;
 `

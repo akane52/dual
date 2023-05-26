@@ -82,17 +82,15 @@ export const timelineData = [
       {
         id: 10,
         logo: grupo_trabajo,
-        date: "MARZO 2023",
-        subtitle: "Introducción a grupos de trabajo",
-        info: "Empezamos a incorporarnos al equipo haciendo tareas de mantenimiento como por ejemplo actualizar yarn en varios repositorios, también asistiendo a las dailys y a los PI planning para coger el ritmo de trabajo.",
-        learnings: "Organización interna de los equipos, matificación de la metodología scrum, actualización de versiones…"
+        date: "ABRIL 2023",
+        subtitle: "Grupo de trabajo",
+        info: "Seguimos trabajando con el equipo haciendo tareas de mantenimiento, arreglando bugs y haciendo pequeñas funcionalidades. También asistiendo a las dailys y a los PI planning para coger el ritmo de trabajo.",
       },
       {
         id: 11,
         logo: grupo_trabajo,
-        date: "ABRIL 2023",
-        subtitle: "Introducción a grupos de trabajo",
-        info: "Empezamos a incorporarnos al equipo haciendo tareas de mantenimiento como por ejemplo actualizar yarn en varios repositorios, también asistiendo a las dailys y a los PI planning para coger el ritmo de trabajo.",
-        learnings: "Organización interna de los equipos, matificación de la metodología scrum, actualización de versiones…"
+        date: "MAYO 2023",
+        subtitle: "Grupo de trabajo",
+        info: "Seguimos trabajando con el equipo haciendo tareas de mantenimiento, arreglando bugs y haciendo pequeñas funcionalidades. También asistiendo a las dailys y a los PI planning para coger el ritmo de trabajo. ",
       },
 ]

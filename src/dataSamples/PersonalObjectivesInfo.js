@@ -15,19 +15,13 @@ export const personalObjectivesData = [
       id: 2,
       logo: grouth,
       title: "Crecimiento personal",
-      description: "Uno de mis principales objetivos personales ha sido siempre crecer tanto a nivel profesional como personal. Y considero que estas prácticas me han dado la oportunidad de hacerlo."
+      description: "Crecer tanto a nivel profesional como personal. Considero que estas prácticas me han dado la oportunidad de hacerlo."
     },
     {
       id: 3,
       logo: contactsLogo,
       title: "Red de contactos",
-      description: "Establecer contactos profesionales y mantener relaciones de trabajo sólidas con compañeros de trabajo para construir una red de contactos"
-    },
-    {
-      id: 4,
-      logo: ui_logo,
-      title: "UX/UI",
-      description: "Desarrollar habilidades en diseño de interfaz de usuario (UI) y experiencia de usuario (UX) para crear aplicaciones atractivas y fáciles de usar."
+      description: "Establecer contactos y mantener relaciones de trabajo con compañeros para construir una red de contactos"
     },
     {
       id: 5,
