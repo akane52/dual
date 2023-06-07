@@ -36,7 +36,7 @@ const FirstPageCards = () => {
             <CardImage src={quien_soy}></CardImage>
             <CardTextContainer>
             <CardTitle>¿Quién soy?</CardTitle>
-            <CardDescription>holka diuwdhiuehdfouewd</CardDescription>
+            <CardDescription>Introducción del estudiante</CardDescription>
             <CardButton onClick={handleOnClickWhoAmI}>Read more</CardButton>
             </CardTextContainer>
         </CardBackground>
@@ -44,7 +44,7 @@ const FirstPageCards = () => {
             <CardImage src={travelportPhoto}></CardImage>
             <CardTextContainer>
             <CardTitle>Travelport</CardTitle>
-            <CardDescription>holka diuwdhiuehdfouewd</CardDescription>
+            <CardDescription>Descripción de la empresa</CardDescription>
             <CardButton onClick={handleOnClickTravelport}>Read more</CardButton>
             </CardTextContainer>
         </CardBackground>
@@ -52,7 +52,7 @@ const FirstPageCards = () => {
             <CardImage src={learningsPhoto}></CardImage>
             <CardTextContainer>
             <CardTitle>Aprendizajes</CardTitle>
-            <CardDescription>holka diuwdhiuehdfouewd</CardDescription>
+            <CardDescription>¿Qué he aprendido?</CardDescription>
             <CardButton onClick={handleOnClickLearnings}>Read more</CardButton>
             </CardTextContainer>
         </CardBackground>
@@ -60,7 +60,7 @@ const FirstPageCards = () => {
             <CardImage src={conclusionsPhoto}></CardImage>
             <CardTextContainer>
             <CardTitle>Conclusiones</CardTitle>
-            <CardDescription>holka diuwdhiuehdfouewd</CardDescription>
+            <CardDescription>Conclusiones sobre este año</CardDescription>
             <CardButton onClick={handleOnClickConclusions}>Read more</CardButton>
             </CardTextContainer>
         </CardBackground>
