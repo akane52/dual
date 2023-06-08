@@ -11,7 +11,7 @@ export const timelineData = [
       id: 1,
       logo: gherking,
       date: "JUNIO 2022",
-      subtitle: "Gherking",
+      subtitle: "Gherkin",
       info: "Creación de una “wikipedia” con toda la parte teórica de HTML, CSS. Utilización de github",
       learnings: "He aprendido a utilizar el lenguaje de marcas html y las hojas de estilo css a nivel avanzado. Aprendizaje de github a nivel de usuario básico."
     },
@@ -25,9 +25,9 @@ export const timelineData = [
       },
       {
         id: 3,
-        logo: javascript,
+        logo: bdd,
         date: "SEPTIEMBRE 2022",
-        subtitle: "JavaScript",
+        subtitle: "JavaScript y BDD",
         info: "Continuación con JavaScript. Creación de un buscaminas con metodología BDD.",
         learnings: "Hemos seguido con JavaScript. También hemos aprendido a realizar feature files y a generar tests automáticos para comprobar el funcionamiento de la aplicación."
       },
