@@ -22,7 +22,7 @@ export const timelineData = [
         subtitle: "JavaScript",
         info: "Comienzo con JavaScript. Creación de una calculadora en base a un feature file y realización de los tests automáticos. (gherkin)",
         learnings: "He aprendido a utilizar el lenguaje de programación JavaScript a un nivel avanzado. También a realizar feature files y a generar tests automáticos para comprobar el funcionamiento de la aplicación."
-      },
+      }, 
       {
         id: 3,
         logo: bdd,
